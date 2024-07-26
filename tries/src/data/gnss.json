@@ -1,0 +1,172 @@
+[
+    {
+        "type": "multiple-choice",
+        "question": "Why is monitoring the GNSS spectrum alone often insufficient for comprehensive spoofing detection?",
+        "options": [
+            "Spectrum monitoring is too slow to detect real-time attacks.",
+            "It only detects changes in signal strength and frequency, not the content or integrity of the signals.",
+            "Spoofers can closely mimic legitimate signal parameters, making detection challenging.",
+            "It cannot differentiate between different types of interference.",
+            "None of the other options."
+        ],
+        "answer": [1, 2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following is generally NOT an effective spoofing detection method?",
+        "options": [
+            "Implement cryptographic authentication to verify the authenticity of GNSS signals, ensuring they originate from legitimate satellites.",
+            "Cross-checking GNSS data with other navigation systems like inertial navigation sensors or signals from multiple GNSS constellations (GPS, GLONASS, Galileo, BeiDou) and frequencies.",
+            "Use antennas that can determine the direction of incoming signals, allowing the receiver to distinguish between legitimate and spoofed signals based on direction.",
+            "Monitor the strength of GNSS signals. Sudden increases in signal strength can indicate spoofing attempts.",
+            "Monitor the frequency spectrum in the GNSS band. Frequency spikes generally indicate the presence of a spoofer in that band."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Why is it important to receive signals in Line-of-Sight to build profitable pseudoranges?",
+        "options": [
+            "Because line-of-sight signals are not delayed by reflections. Multipath can cause the receiver to calculate a longer travel time, leading to erroneous pseudorange calculations.",
+            "Because Line-of-sight signals travel the shortest and most direct path from the satellite to the receiver. This ensures that the signal strength is higher and minimal attenuation is experienced leading to a higher signal-to-noise ratio.",
+            "Because satellites in line-of-sight yield to better geometrical conditions to estimate the position and therefore to a lower GDOP.",
+            "Because measurements performed in line-of-sight maintain synchronization between the user and the satellite.",
+            "None of the other options."
+        ],
+        "answer": [0, 1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Is out-of-band interference detrimental for GNSS signals? Why?",
+        "options": [
+            "Yes. GNSS frequency bands are reserved only in the country that owns each system (e.g., the US for GPS, the EU for Galileo), therefore, other signal transmissions can freely interfere with those bands in most regions.",
+            "No. GNSS frequency bands are reserved, and no other signal transmission interferes with those bands.",
+            "No. GNSS signals are generally very weak; however, the use of spread spectrum codes makes them invulnerable to interference.",
+            "Yes. Since GNSS signals are generally very weak, strong out-of-band spillovers of powerful signals can interfere with the GNSS band.",
+            "None of the other options."
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following is a common indicator of a GNSS spoofing attack?",
+        "options": [
+            "A gradual decrease in signal strength over time",
+            "Enhanced accuracy and reliability of GNSS signals",
+            "Sudden and significant deviations in position, velocity or time calculations",
+            "Discrepancies between GNSS-based positions and those from alternative navigation systems (e.g., inertial navigation systems)",
+            "None of the others"
+        ],
+        "answer": [2, 3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Are the user and satellite clock synchronized in a GNSS?",
+        "options": [
+            "None of the other options.",
+            "Yes, but there is a constant time-invariant offset.",
+            "Yes, always.",
+            "No, never. Neither before nor after the user position estimation.",
+            "Not really. However, the user clock can be considered synchronized after the continuous estimation of the user clock bias which is time-varying."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the minimum number of satellite signals that a GNSS receiver needs to track to correctly solve the positioning problem?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "None of the other options."
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Assume a radionavigation system which, like a GNSS, is based on signal travelling time measurements between transmitters and receiver. What is the difference between a pseudorange and a range measurement for such a system?",
+        "options": [
+            "No difference, they are equivalent definitions.",
+            "A pseudorange is a range affected by an offset caused by the lack of synchronization.",
+            "A pseudorange is a range measurement when such measurement is obtained through a signal.",
+            "A pseudorange is a range affected by an unsolvable measurement error.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "How does GNSS jamming differ from GNSS spoofing?",
+        "options": [
+            "Jamming affects only timing information, while spoofing affects positional data.",
+            "Spoofing is only possible with military-grade equipment, while jamming is a natural phenomenon.",
+            "Jamming requires cryptographic methods, while spoofing uses signal modulation.",
+            "Jamming disrupts signals by transmitting noise, while spoofing sends counterfeit signals.",
+            "None of the other options."
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which technique can help detect GNSS jamming?",
+        "options": [
+            "Cross-checking GNSS signals with other GNSS constellations.",
+            "Using a directional antenna to identify the source of the signal.",
+            "Comparing GNSS data with inertial navigation systems (INS).",
+            "Enhancing signal strength through amplification.",
+            "None of the other options."
+        ],
+        "answer": [0, 1, 2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "In a GNSS, what crucial pieces of information are the satellites broadcasting to the users?",
+        "options": [
+            "The position of the user",
+            "The user clock bias",
+            "Information about the location of the satellite and the transmission time of the signal",
+            "The travelling time of the signal",
+            "None of the other options."
+        ],
+        "answer": [2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "How many users can a GNSS support?",
+        "options": [
+            "It depends on the amount of satellites in orbit.",
+            "Around 5 billions. This justifies the increase of GNSS constellations in the past years.",
+            "Unlimited, thanks to its broadcast nature and one-way communication from GNSS satellites to receivers.",
+            "It depends on the type of user device. Low-power consumption user receivers can be easily supported, thus they can be more.",
+            "None of the other options."
+        ],
+        "answer": [2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Why can a goodness-of-fit test be an effective method for interference detection?",
+        "options": [
+            "Because of the generally non-Gaussian nature of the interfering signal. By comparing the observed signal characteristics to the expected characteristics, deviations from a normal distribution can indicate the presence of interference.",
+            "Because every interfering signal can be modeled through a normal distribution.",
+            "Because the receiver noise is normally distributed, and in the presence of interference, the distribution of signal samples generally maintains its Gaussian shape.",
+            "Because goodness-of-fit tests are designed to detect any deviations from a specific expected distribution and can distinguish between any types of interference since they are all characterized statistically.",
+            "None of the others."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "associate",
+        "question": "Consider the following measurement equation for the pseudorange :\n\n\\[\\rho_j = \\sqrt{(x_j - x_u)^2 + (y_j - y_u)^2 + (z_j - z_u)^2} + b_{ut},\\]\n\nwhere \\( x_j, y_j, z_j \\) are the \\( j \\)-th satellite position coordinates, \\( x_u, y_u, z_u \\) are the user position coordinates, and \\( b_{ut} \\) is the user clock bias.\n\nTry to match each set of variables with their role in the estimation process.",
+        "options": {
+            "names": ["$b_{ut}$", "$\\rho_j$", "$x_j, y_j, z_j$", "$x_u, y_u, z_u$"],
+            "list": ["Unknown, to be estimated", "Measured by the receiver", "Known, computed from the satellite broadcast message", "Unknown, to be estimated"]
+        },
+        "answer": {
+            "$b_{ut}$": "Unknown, to be estimated",
+            "$\\rho_j$": "Measured by the receiver",
+            "$x_j, y_j, z_j$": "Known, computed from the satellite broadcast message",
+            "$x_u, y_u, z_u$": "Unknown, to be estimated"
+        }
+    }
+]

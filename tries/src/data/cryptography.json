@@ -1,0 +1,212 @@
+[
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following best defines a stream cipher?",
+        "options": [
+            "A cipher that encrypts data one bit or byte at a time, using a key stream generated from a key.",
+            "A cipher that rearranges the order of letters in the plaintext.",
+            "A cipher that substitutes each letter of the plaintext with multiple different letters or symbols based on a complex substitution scheme.",
+            "A cipher that encrypts the plaintext into binary code.",
+            "None of the other options."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following best defines a block cipher?",
+        "options": [
+            "A cipher that rearranges the order of letters in the plaintext.",
+            "A cipher that substitutes each letter of the plaintext with multiple different letters or symbols based on a complex substitution scheme.",
+            "A cipher that encrypts data one bit or byte at a time, using a key stream generated from a key.",
+            "A cipher that encrypts the plaintext into binary code.",
+            "None of the other options."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following defines a cipher text attack?",
+        "options": [],
+        "answer": []
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is known plaintext attack",
+        "options": [],
+        "answer": []
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Classification of wireless network, adhoc/infrastructure, fixed/mobile, wwan/wlan",
+        "options": [],
+        "answer": []
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following best defines asymmetric encryption?",
+        "options": [
+            "A cipher that encrypts data in fixed-size blocks, each block processed independently with a key.",
+            "A cipher that uses a single key for both encryption and decryption.",
+            "A cipher that uses a pair of keys (public and private) for encryption and decryption to ensure secure communication between parties.",
+            "A cipher that uses different keys for encryption and decryption, ensuring secure communication between parties.",
+            "None of the other options."
+        ],
+        "answer": [2, 3]
+    },
+    {
+        "type": "associate",
+        "question": "Associate the correct definition to the following security mechanisms",
+        "options": {
+            "names": [
+                "Access Control",
+                "Encipherment",
+                "Traffic Padding",
+                "Notarization"
+            ],
+            "list": [
+                "Determines and enforce the access rights of the entity depending on the authenticated identity. Provides confidentiality for either data or traffic flow information.",
+                "Provides confidentiality for either data or traffic flow information.",
+                "Protects against traffic analysis attacks by adding non essential data to network communications. Assures data integrity, origin, time, and destination about data communicated between two or more entities.",
+                "Assures data integrity, origin, time, and destination about data communicated between two or more entities."
+            ]
+        },
+        "answer": {
+            "Access Control": "Determines and enforce the access rights of the entity depending on the authenticated identity. Provides confidentiality for either data or traffic flow information.",
+            "Encipherment": "Provides confidentiality for either data or traffic flow information.",
+            "Traffic Padding": "Protects against traffic analysis attacks by adding non essential data to network communications. Assures data integrity, origin, time, and destination about data communicated between two or more entities.",
+            "Notarization": "Assures data integrity, origin, time, and destination about data communicated between two or more entities."
+        }
+    },
+    {
+        "type": "associate",
+        "question": "Associate the correct definition of the following Security Services:",
+        "options": {
+            "names": [
+                "Non-repudiation",
+                "Confidentiality",
+                "Availability",
+                "Integrity"
+            ],
+            "list": [
+                "Assurance that someone cannot deny the validity of something.",
+                "Ensuring that information is accessible only to those authorized to have access.",
+                "Ensuring that authorized users have access to information and associated assets when required.",
+                "Maintaining and assuring the accuracy and completeness of data over its entire lifecycle."
+            ]
+        },
+        "answer": {
+            "Non-repudiation": "Assurance that someone cannot deny the validity of something.",
+            "Confidentiality": "Ensuring that information is accessible only to those authorized to have access.",
+            "Availability": "Ensuring that authorized users have access to information and associated assets when required.",
+            "Integrity": "Maintaining and assuring the accuracy and completeness of data over its entire lifecycle."
+        }
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the key difference between a monoalphabetic and a polyalphabetic cipher?",
+        "options": [
+            "The method of rearranging the order of letters.",
+            "The use of multiple keys for encryption.",
+            "The length of the plaintext that can be encrypted.",
+            "The complexity of the substitution pattern used.",
+            "None of the other options."
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following best defines a ciphertext-only attack in the context of wireless network security?",
+        "options": [
+            "An attack where the attacker can only access the ciphertext and attempts to decrypt it without any additional information.",
+            "An attack where the attacker has access to both the plaintext and its corresponding ciphertext.",
+            "An attack where the attacker manipulates the ciphertext to produce a predictable change in the plaintext.",
+            "An attack where the attacker intercepts and alters the communication between two parties.",
+            "None of the other options."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following best defines a chosen-plaintext attack in the context of wireless network security?",
+        "options": [
+            "An attack where the attacker can only access the ciphertext and attempts to decrypt it without any additional information.",
+            "An attack where the attacker has access to both the plaintext and its corresponding ciphertext.",
+            "An attack where the attacker manipulates the ciphertext to produce a predictable change in the plaintext.",
+            "An attack where the attacker intercepts and alters the communication between two parties.",
+            "None of the other options."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following definitions correctly defines a Passive Attack in a wireless network?",
+        "options": [
+            "An attack that involves injecting malicious packets into the network.",
+            "An attack where the attacker modifies or disrupts the communication.",
+            "An attack where the attacker gains unauthorized access to the network resources.",
+            "An attack where the attacker intercepts and monitors the wireless communication, altering the data.",
+            "None of the other options."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following are security services?",
+        "options": [
+            "Encryption",
+            "Password Checking",
+            "Message Authentication Code",
+            "Confidentiality",
+            "None of the others"
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "In a Wireless Personal Area Networks (WPAN), which of the following configurations are possible?",
+        "options": [
+            "Master-slave mode",
+            "Mesh mode",
+            "Radio Access Network and Core Transport Network",
+            "Point to point network",
+            "None of the others"
+        ],
+        "answer": [0, 1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following best defines the Access Control service in the context of wireless networks?",
+        "options": [
+            "A service that restricts access to network resources based on user identity and predefined policies.",
+            "A service that monitors and logs network traffic for potential threats and attacks.",
+            "A service that ensures data integrity by verifying that data has not been altered during transmission.",
+            "A service that provides encryption to secure data transmitted over the network.",
+            "None of the other options."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following best defines traffic padding in the context of wireless network security?",
+        "options": [
+            "A service that verifies the identity of users and devices on the network.",
+            "A method for ensuring data integrity during transmission.",
+            "A process of compressing data to reduce transmission time.",
+            "A method used to encrypt data to prevent unauthorized access.",
+            "None of the other options."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following best defines an authentication service in the context of wireless networks?",
+        "options": [
+            "A service that verifies the identity of users or devices before granting access to network resources.",
+            "A service that encrypts data to ensure privacy during transmission.",
+            "A service that manages user permissions and access levels within the network.",
+            "A service that restricts access to network resources based on user identity and predefined policies.",
+            "None of the other options."
+        ],
+        "answer": [0]
+    }
+]

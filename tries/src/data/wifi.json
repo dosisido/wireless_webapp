@@ -1,0 +1,542 @@
+[
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following topologies are possible in a Wireless LAN?",
+        "options": [
+            "Point-to-point mode",
+            "High speed mode",
+            "Infrastructure-based mode",
+            "Ad-hoc mode",
+            "None of the other options"
+        ],
+        "answer": [2, 3]
+    },
+    {
+        "type": "order",
+        "question": "Sort the exchanged messages to connect to an AP",
+        "options": [],
+        "answer": []
+    },
+    {
+        "type": "multiple-choice",
+        "question": "How does WEP key management compare to WPA/WPA2 key management?",
+        "options": [
+            "WEP is more efficient and faster than WPA/WPA2 in managing keys.",
+            "WEP uses dynamic keys that change frequently, unlike WPA/WPA2.",
+            "WEP is considered insecure due to its use of static keys, whereas WPA/WPA2 use more secure key management protocols.",
+            "WEP provides stronger encryption and is more secure than WPA/WPA2.",
+            "None of the other options."
+        ],
+        "answer": [2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following security services does WEP support?",
+        "options": [
+            "Data integrity",
+            "Message confidentiality",
+            "Access control",
+            "Authentication",
+            "None of the other options"
+        ],
+        "answer": [0, 1, 2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Why is power control important in CDMA networks?",
+        "options": [
+            "To enhance the data transmission speed and reduce latency.",
+            "To minimize interference and improve spectral efficiency.",
+            "To limit interference between adjacent cells.",
+            "To conserve battery life in mobile devices.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "order",
+        "question": "Consider the maximum goodput one could reach with the following technologies. Put the following options in order from the HIGHEST to the LOWEST:",
+        "options": [
+            "802.11n RTS/CTS disabled, UDP + IP",
+            "802.11n RTS/CTS disabled, TCP + IP",
+            "802.11n RTS/CTS enabled, UDP + IP",
+            "802.11n RTS/CTS enabled, TCP + IP",
+            "Fast Ethernet, 100Mb/s",
+            "802.11g RTS/CTS disabled, UDP + IP",
+            "802.11g RTS/CTS disabled, TCP + IP",
+            "802.11g RTS/CTS enabled, UDP + IP",
+            "802.11g RTS/CTS enabled, TCP + IP"
+        ],
+        "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+        "type": "associate",
+        "question": "Associate the correct definition for the following attacks in a WLAN:",
+        "options": {
+            "names": [
+                "WEP Password cracking",
+                "NAV attack",
+                "Rouge Access Point",
+                "De-authentication attack",
+                "Chopchop attack"
+            ],
+            "list": [
+                "Leverage the reusage of Initialization Vector to create a collision and then break the RC4 key.",
+                "An attack where the attacker manipulates the frame duration value to prevent other devices from accessing the channel.",
+                "A fake AP that impersonates the real AP.",
+                "The attacker sends forged de-authentication frames to force a STA to repeat the connection process.",
+                "The process to recover the plaintext content of a frame by replaying a portion of the original frame."
+            ]
+        },
+        "answer": {
+            "WEP Password cracking": "Leverage the reusage of Initialization Vector to create a collision and then break the RC4 key.",
+            "NAV attack": "An attack where the attacker manipulates the frame duration value to prevent other devices from accessing the channel.",
+            "Rouge Access Point": "A fake AP that impersonates the real AP.",
+            "De-authentication attack": "The attacker sends forged de-authentication frames to force a STA to repeat the connection process.",
+            "Chopchop attack": "The process to recover the plaintext content of a frame by replaying a portion of the original frame."
+        }
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following best describes a NAV attack in WiFi networks?",
+        "options": [
+            "An attack where the attacker decrypts the communication between two devices.",
+            "An attack where the attacker sends excessive data packets to the network, causing a denial of service.",
+            "An attack where the attacker sets a very short NAV value to prevent other devices from accessing the channel.",
+            "An attack where the attacker manipulates the NAV value to prevent other devices from accessing the channel.",
+            "None of the other options."
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following information would an attacker require to mount a de-authentication attack against one specific STA in a WLAN?",
+        "options": [
+            "The AP MAC address",
+            "The STA MAC address",
+            "The WLAN channel",
+            "The WLAN ESSID",
+            "None of the other options."
+        ],
+        "answer": [0, 1, 2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Why in 802.11 there are two destination mac addresses?",
+        "options": [
+            "The first indicates the AP that has to receive the frame. The second indicates the interface of the router that frame is destined to.",
+            "To correctly identify the STA sending the frame.",
+            "For anonymisation.",
+            "For error correction.",
+            "None of the other options."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Why in 802.11 there are two destination mac addresses?",
+        "options": [
+            "In case there are multiple APs, to indicate the two APs that should receive and process the frame.",
+            "For error correction",
+            "For anonymisation",
+            "None of the other options.",
+            "To correctly identify the STA sending the frame"
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What type of encryption does OWE use to secure data in transit?",
+        "options": [
+            "Diffie-Hellman key exchange to establish a shared secret.",
+            "Asymmetric encryption using RSA keys.",
+            "Symmetric key encryption with a pre-shared key.",
+            "None of the other options.",
+            "Static encryption keys manually configured by the user."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "order",
+        "question": "Consider two STA, A and B, that belong to a WLAN managed by an AP. RTS/CTS are DISABLED. A and B wake up at the same time to send a data frame, creating thus a collision. Put in the right sequence the frames and events that could occur in time.",
+        "options": [
+            "A sends a DATA(A) frame",
+            "B sends a DATA(B) frame",
+            "DATA(A) collides with DATA(B)",
+            "A and B wait for the AP's ACK",
+            "Neither A nor B received the ACK, so they backoff",
+            "A waits 10ms and tries to retransmit DATA(A)",
+            "B waits 20ms and listens to the channel, sensing its busy with DATA(A) transmission",
+            "AP receives DATA(A)",
+            "AP sends an ACK to A"
+        ],
+        "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+        "type": "order",
+        "question": "Consider two STA, A and B, that belong to a WLAN managed by an AP. RTS/CTS are ENABLED. A and B wake up at the same time to send a data frame, creating thus a collision. Put in the right sequence the frames and events that could occur in time.",
+        "options": [
+            "A sends a RTS",
+            "B sends a RTS",
+            "RTS sent by A collides with RTS sent by B",
+            "A waits 10ms and tries to retransmit the RTS",
+            "B waits 20ms and tries to retransmit the RTS",
+            "AP receives the RTS from A and sends a CTS(A)",
+            "A and B receive the CTS(AP)",
+            "A sends a DATA frame while B defers its transmission",
+            "AP sends an ACK to A"
+        ],
+        "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+        "type": "order",
+        "question": "Consider the case a STA would like to transmit a frame to the AP. No other transmissions are present. RTS/CTS are disabled. Put in the correct order over time the sequence of events that would occur:",
+        "options": [
+            "A waits for DIFS time",
+            "A sends the DATA(A) frame",
+            "AP receives the DATA(A) frame",
+            "AP waits for SIFS time",
+            "AP sends ACK to A",
+            "A receives the ACK and transmits a second frame"
+        ],
+        "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Consider a STA trying to connect to an AP. In which order the following frames are exchanged?",
+        "options": [
+            "ACK",
+            "Beacon",
+            "Probe",
+            "Authentication",
+            "Association",
+            "Data"
+        ],
+        "answer": [1, 2, 3, 4, 5, 0]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Suppose you are at home with your laptop and a set of WiFi USB adapters. How can you know the capabilities of your NICs?",
+        "options": [
+            "Use a WiFi scanning tool to analyze the available networks.",
+            "Refer to the technical documentation provided by the NIC manufacturer.",
+            "Contact your ISP for information about the NICs capabilities.",
+            "Look into the configuration settings of your home router.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following information would you need to analyze to assess the capabilities of a given NIC?",
+        "options": [
+            "The MAC address",
+            "Supported frequency bands",
+            "Supported protocols and standards (e.g., 802.11n, 802.11ac)",
+            "Transmit power",
+            "All of the above"
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Why in 802.11 there are two destination mac addresses?",
+        "options": [
+            "The first indicates the AP that has to receive the frame. The second indicates the interface of the router that frame is destined to.",
+            "To correctly identify the STA sending the frame.",
+            "For anonymisation.",
+            "For error correction.",
+            "None of the other options."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Why in 802.11 there are two destination mac addresses?",
+        "options": [
+            "In case there are multiple APs, to indicate the two APs that should receive and process the frame.",
+            "For error correction",
+            "For anonymisation",
+            "None of the other options.",
+            "To correctly identify the STA sending the frame"
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What type of encryption does OWE use to secure data in transit?",
+        "options": [
+            "Diffie-Hellman key exchange to establish a shared secret.",
+            "Asymmetric encryption using RSA keys.",
+            "Symmetric key encryption with a pre-shared key.",
+            "None of the other options.",
+            "Static encryption keys manually configured by the user."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "order",
+        "question": "Consider two STA, A and B, that belong to a WLAN managed by an AP. RTS/CTS are DISABLED. A and B wake up at the same time to send a data frame, creating thus a collision. Put in the right sequence the frames and events that could occur in time.",
+        "options": [
+            "A sends a DATA(A) frame",
+            "B sends a DATA(B) frame",
+            "DATA(A) collides with DATA(B)",
+            "A and B wait for the AP's ACK",
+            "Neither A nor B received the ACK, so they backoff",
+            "A waits 10ms and tries to retransmit DATA(A)",
+            "B waits 20ms and listens to the channel, sensing its busy with DATA(A) transmission",
+            "AP receives DATA(A)",
+            "AP sends an ACK to A"
+        ],
+        "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+        "type": "order",
+        "question": "Consider two STA, A and B, that belong to a WLAN managed by an AP. RTS/CTS are ENABLED. A and B wake up at the same time to send a data frame, creating thus a collision. Put in the right sequence the frames and events that could occur in time.",
+        "options": [
+            "A sends a RTS",
+            "B sends a RTS",
+            "RTS sent by A collides with RTS sent by B",
+            "A waits 10ms and tries to retransmit the RTS",
+            "B waits 20ms and tries to retransmit the RTS",
+            "AP receives the RTS from A and sends a CTS(A)",
+            "A and B receive the CTS(AP)",
+            "A sends a DATA frame while B defers its transmission",
+            "AP sends an ACK to A"
+        ],
+        "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    {
+        "type": "order",
+        "question": "Consider the case a STA would like to transmit a frame to the AP. No other transmissions are present. RTS/CTS are disabled. Put in the correct order over time the sequence of events that would occur:",
+        "options": [
+            "A waits for DIFS time",
+            "A sends the DATA(A) frame",
+            "AP receives the DATA(A) frame",
+            "AP waits for SIFS time",
+            "AP sends ACK(A)",
+            "The transmission is completed"
+        ],
+        "answer": [0, 1, 2, 3, 4, 5]
+    },
+    {
+        "type": "order",
+        "question": "Consider the case a STA would like to transmit a frame to the AP. No other transmissions are present. RTS/CTS are ENABLED. Put in the correct order over time the sequence of events that would occur:",
+        "options": [
+            "A waits for DIFS time",
+            "A sends RTS",
+            "AP received RTS and wait SIFS time",
+            "AP sends CTS",
+            "A receives CTS and waits SIFS time",
+            "A sends the DATA(A) frame",
+            "AP receives the DATA(A) frame",
+            "AP waits for SIFS time",
+            "AP sends ACK(A)",
+            "The transmission is completed"
+        ],
+        "answer": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Why in a WLAN it is not sufficient to use the CSMA-CD protocol used in Ethernet?",
+        "options": [
+            "It will be impossible to detect an eventual collision by the transmitter because the transmitted signal power would be much stronger than the received signal power.",
+            "The WLAN transmitter can either transmit or receive, making it impossible to detect collisions when they occur.",
+            "CSMA-CD requires a bidirectional channel to work. In WLAN there is only one single shared channel.",
+            "CSMA-CD requires an additional channel to signal collisions.",
+            "None of the other options"
+        ],
+        "answer": [0, 1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following are effective defenses against deauthentication attacks in WiFi networks?",
+        "options": [
+            "Disabling encryption to improve performance.",
+            "Honour only de-authentication requests that have the same physical layer properties of other messages sent by such a STA.",
+            "Honour de-authentication requests only from STAs that remain idle for the next 15 seconds.",
+            "Ignoring de-authentication frames entirely.",
+            "None of the other options."
+        ],
+        "answer": [1, 2, 3]
+    },
+    {
+        "type": "order",
+        "question": "Put in the correct order the messages the station and the AP exchange before starting the data exchange:",
+        "options": [
+            "AP send the Beacon",
+            "STA sends the Probe request",
+            "AP sends the Probe response",
+            "STA sends the Authentication request",
+            "AP sends the Authentication response",
+            "STA sends the Association request",
+            "AP sends the Association response"
+        ],
+        "answer": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Select the TRUE answers among the following ones about the purposes of CSMA-CA in wireless networking.",
+        "options": [
+            "It tries to prevent collisions during data transmission.",
+            "It ensures all devices have equal access to the wireless medium.",
+            "It cannot prevent collisions entirely, especially in high-density networks.",
+            "It encrypts data packets for secure transmission.",
+            "None of the other options."
+        ],
+        "answer": [0, 1, 2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following security features does Simultaneous Authentication of Equals (SAE) provide?",
+        "options": [
+            "Stronger message authentication via MIC instead of CRC.",
+            "Protection against man-in-the-middle attacks.",
+            "Protection against offline dictionary attacks.",
+            "Mutual authentication between devices.",
+            "None of the other options."
+        ],
+        "answer": [1, 2, 3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the primary purpose of the 'Duration' field in the WiFi protocol header?",
+        "options": [
+            "To indicate the duration of a data transmission.",
+            "To reserve the wireless medium for a specified period to avoid collisions.",
+            "To specify the length of time a device can transmit data.",
+            "To define the time interval during which the channel is busy.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "How is the value for the 'Duration' field typically calculated in WiFi networks?",
+        "options": [
+            "Determined by the physical distance between the devices.",
+            "Defined by the number of wireless devices currently connected to the access point.",
+            "Calculated according to the duration of the current transmission plus any additional time needed for acknowledgments.",
+            "Based on the data rate of the transmission.",
+            "None of the other options."
+        ],
+        "answer": [2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following provides a possible classification of a wireless communication system?",
+        "options": [
+            "High speed networks",
+            "Fixed or mobile",
+            "Infrastructure or Ad Hoc network",
+            "Wireless Wide Area Networks or Wireless Local Area Networks",
+            "None of the other options."
+        ],
+        "answer": [1, 2, 3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the primary purpose of SIFS (Short Inter-Frame Space) in WiFi networks?",
+        "options": [
+            "To synchronize clocks between different wireless devices.",
+            "To prioritize time-sensitive transmissions like acknowledgements (ACK).",
+            "To speed up data communications.",
+            "To encrypt data packets for secure transmission.",
+            "None of the other options."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following statements correctly describes the difference between deauthentication and disassociation attacks in WiFi networks?",
+        "options": [
+            "Deauthentication attacks involve intercepting and decrypting communication, while disassociation attacks involve jamming the wireless signal.",
+            "Deauthentication attacks force devices to disconnect by sending fake deauthentication frames, while disassociation attacks force devices to disconnect by sending fake disassociation frames.",
+            "Deauthentication attacks force devices to disconnect by sending fake deauthentication frames, while disassociation attacks force devices to reconnect by sending fake association frames.",
+            "Deauthentication attacks gain unauthorized access by cracking the encryption key, while disassociation attacks flood the network with excessive traffic.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "How does rate adaptation contribute to enhancing network performance in WiFi networks?",
+        "options": [
+            "By reducing the latency in transmitting data packets.",
+            "By ensuring devices can adjust their data rates based on changing environmental conditions.",
+            "By minimizing interference from neighbouring wireless networks.",
+            "By synchronizing clocks between devices to avoid timing conflicts.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "How is the Pairwise Master Key (PMK) typically generated in WPA networks?",
+        "options": [
+            "It is manually entered by the network administrator.",
+            "It is derived from the user's passphrase and other material that makes it unique for each STA connected in the WLAN.",
+            "It is derived from the user's passphrase and other material that makes it identical for all STA connected in the WLAN.",
+            "It is automatically generated by the access point during the initial setup.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the hidden terminal problem in WiFi networks?",
+        "options": [
+            "A situation where a wireless device is physically hidden and cannot connect to the access point.",
+            "An issue where wireless devices within the same range of an access point cannot hear each other's transmissions, leading to potential collisions and packet loss.",
+            "A scenario where two wireless devices cannot communicate directly with each other due to obstacles in their line of sight.",
+            "A condition where the access point's signal is too weak for devices to establish a stable connection.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "associate",
+        "question": "Associate the correct definition of the following terms:",
+        "options": [
+            "Association request",
+            "Authentication request",
+            "Probe request",
+            "Beacon"
+        ],
+        "answers": [
+            "A frame the station sends to the AP to enable the communication in the WLAN",
+            "A frame the station sends to the AP to provide its identity and request access to the WLAN.",
+            "A request frame the station sends to look for the presence of a WLAN AP.",
+            "A broadcast message sent to advertise the presence and capabilities of a WLAN."
+        ]
+    },
+    {
+        "type": "associate",
+        "question": "Associate the correct definition of the following terms as defined in 802.11x:",
+        "options": [
+            "Supplicant",
+            "Port",
+            "Authentication Server",
+            "Authentication system"
+        ],
+        "answers": [
+            "A device that wishes to attach to the LAN/WLAN.",
+            "Physical or logical system that allows or blocks the data communication of a device.",
+            "A trusted server that receives and responds to requests for network access, and can tell the authenticator if the connection is to be allowed.",
+            "A network device that provides a data link between the client and the network. It can allow or block network traffic between the two."
+        ]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the primary purpose of Opportunistic Wireless Encryption (OWE)?",
+        "options": [
+            "To improve data transmission speed by encrypting data.",
+            "To manage the distribution of encryption keys manually.",
+            "To provide data encryption for open networks without user intervention.",
+            "None of the previous options",
+            "To strengthen the security provided by previous protocols by supporting keys up to 256 bits."
+        ],
+        "answer": [2]
+    }
+]
+    

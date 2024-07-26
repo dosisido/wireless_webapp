@@ -1,0 +1,317 @@
+[
+    {
+        "type": "multiple-choice",
+        "question": "Which vulnerability in the GSM network does the Stingray leverage?",
+        "options": [
+            "It exploits the fact that only the MS must authenticate in GSM.",
+            "It mounts a brute-force attack to recover the Ki and then decrypt all communications.",
+            "It uses the weaknesses in the A3/A8/A5 algorithms to mount a MITM attack.",
+            "It uses jamming to force a MS to connect to a rogue BS.",
+            "None of the other options."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following are 2G vulnerabilities?",
+        "options": [],
+        "answer": []
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What are the main security issues in SS7 (Signaling System No. 7)?",
+        "options": [
+            "Caller ID spoofing and call redirection.",
+            "Interception of SMS messages and phone calls.",
+            "Location tracking of mobile devices.",
+            "Unauthorized access to subscriber billing information.",
+            "None of the other options."
+        ],
+        "answer": [0, 1, 2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "The SS7 signalling network is a protocol that",
+        "options": [
+            "Uses a datagram network to exchange signaling messages",
+            "Uses out-of-band signalling approach so that messages are sent on a separate network than the telephone network.",
+            "Is a circuit-switched technology to setup, manage, and tear-down communications in the telephone network.",
+            "Is based on the ISO-OSI reference layer.",
+            "None of the other options."
+        ],
+        "answer": [0, 1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the purpose of paging and location areas in mobile networks?",
+        "options": [
+            "To seamlessly transfer an active call or data session from one cell to another.",
+            "To efficiently locate and notify a mobile device of an incoming call or message by dividing the network into smaller areas.",
+            "Paging allows the BSC to locate the cell the MS is currently connected to.",
+            "To limit the MS power consumption so that it can sleep while not involved in any communications.",
+            "None of the other options."
+        ],
+        "answer": [1, 2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the difference between the Visitor Location Register (VLR) and the Home Location Register (HLR) in GSM networks?",
+        "options": [
+            "The VLR is a temporary database that stores information about subscribers currently roaming in the coverage area, while the HLR is a permanent database that contains detailed subscriber information and is maintained by the subscriber's home network.",
+            "The VLR handles billing and account information for roaming subscribers, while the HLR manages encryption keys and authentication data.",
+            "The VLR is responsible for managing voice call routing, while the HLR handles data transmission services.",
+            "The VLR stores the IMSI and Ki keys, while the HLR stores the subscriber's phonebook and SMS messages.",
+            "None of the other options."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "associate",
+        "question": "Consider the GSM Authentication Protocol timeline shown below: \n\n![](images/GSM_auth.png)\n\nAssociate the correct information to the correct number:",
+        "options": {
+            "names": [
+                "The MS sends the IMSI to the Visitor Location Register",
+                "The Visitor Location Register forwards the subscriber IMSI to the Home Location Register",
+                "Generates (RAND, SRES, Kc) and send them to the VLR",
+                "Forwards RAND to MS",
+                "Computes SRES' and send it to the VLR",
+                "Compares SRES and SRES'",
+                "Ki",
+                "Kc"
+            ],
+            "list": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ]
+        },
+        "answer": {
+            "The MS sends the IMSI to the Visitor Location Register": "1",
+            "The Visitor Location Register forwards the subscriber IMSI to the Home Location Register": "2",
+            "Generates (RAND, SRES, Kc) and send them to the VLR": "3",
+            "Forwards RAND to MS": "4",
+            "Computes SRES' and send it to the VLR": "5",
+            "Compares SRES and SRES'": "6",
+            "Ki": "7",
+            "Kc": "8"
+        }
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the primary purpose of handover in mobile networks?",
+        "options": [
+            "To encrypt voice and data transmissions for secure communication.",
+            "To seamslessy transfer an active call or data session from one mobile terminal to another.",
+            "To manage billing and account information for mobile subscribers when they move between to Base Stations.",
+            "To increase the data transmission speed between mobile devices.",
+            "None of the other options."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What are the main components involved in the GSM authentication process?",
+        "options": [
+            "SIM card, Authentication Center (AuC), and Home Location Register (HLR).",
+            "Mobile Equipment (ME), Visitor Location Register (VLR), and Base Transceiver Station (BTS).",
+            "Mobile Station (MS), Base Station Subsystem (BSS), and Network Switching Subsystem (NSS).",
+            "Mobile Management Entity (MME), Serving Gateway (SGW), and Packet Data Network Gateway (PGW).",
+            "None of the other options."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "associate",
+        "question": "Associate the correct definition to the correct component in the GSM architecture",
+        "options": {
+            "names": [
+                "Mobile Switching Centre",
+                "User Equipment",
+                "Base Station Controller",
+                "Base Transceiver Station",
+                "Gateway MSC"
+            ],
+            "list": [
+                "Includes all control and signalling functions for managing calls and mobility",
+                "The user's mobile device. It includes a Terminal Equipment (TE) and a Subscriber Identity Module (SIM) card",
+                "Implements higher layers protocols and manages all transmission resources of the connected BTSs",
+                "Manages physical layer connections with the UEs and the BSC",
+                "Connects the mobile network to the external telephone networks. It implements all signalling interworking functions"
+            ]
+        },
+        "answer": {
+            "Mobile Switching Centre": "Includes all control and signalling functions for managing calls and mobility",
+            "User Equipment": "The user's mobile device. It includes a Terminal Equipment (TE) and a Subscriber Identity Module (SIM) card",
+            "Base Station Controller": "Implements higher layers protocols and manages all transmission resources of the connected BTSs",
+            "Base Transceiver Station": "Manages physical layer connections with the UEs and the BSC",
+            "Gateway MSC": "Connects the mobile network to the external telephone networks. It implements all signalling interworking functions"
+        }
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What are the advantages and disadvantages of having small or larger cells in mobile networks?",
+        "options": [
+            "Small cells are more expensive to deploy and maintain compared to larger cells, which are cheaper and more energy-efficient.",
+            "None of the other options.",
+            "Small cells are only suitable for urban areas, while larger cells can only be used in rural areas.",
+            "Small cells reduce interference and improve signal quality, whereas larger cells are prone to higher levels of interference and degraded signal quality.",
+            "Small cells provide higher capacity and better coverage in dense areas but may require more frequent handovers as users move, while larger cells cover wider areas with fewer handovers but might have lower capacity in dense environments."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following technologies are used in 4G networks to enhance security?",
+        "options": [
+            "Advanced Encryption Standard (AES) for data encryption.",
+            "Non-Access Stratum (NAS) security for signaling protection.",
+            "Implementation of advanced firewall technologies at the network core.",
+            "Temporary Mobile Subscriber Identity (TMSI) for user anonymity.",
+            "None of the other options."
+        ],
+        "answer": [0, 1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the difference between the IMSI and the TMSI in mobile networks?",
+        "options": [
+            "The IMSI identifies the mobile device, while the TMSI identifies the subscriber's location area.",
+            "The IMSI is a randomly generated number used for secure authentication, while the TMSI is a fixed identifier stored on the SIM card.",
+            "The IMSI is a unique identifier assigned to a mobile subscriber by the home network, while the TMSI is a temporary identifier used to protect the subscriber's identity during communications with the network.",
+            "The IMSI is used for billing and account management, while the TMSI is used for data encryption.",
+            "None of the other options."
+        ],
+        "answer": [2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What are the main vulnerabilities of 2G (GMS) networks?",
+        "options": [
+            "Weak encryption algorithms that can be easily cracked",
+            "Lack of mutual authentication leading to potential man-in-the-middle attacks,",
+            "No encryption of signaling data, making it susceptible to eavesdropping",
+            "Lack of transparency that limited the verification from the security community of the algorithm design",
+            "None of the above."
+        ],
+        "answer": [0, 1, 2, 3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "How does the GSM network authenticate a subscriber using the SIM card?",
+        "options": [
+            "By requiring the subscriber to enter a personal identification number (PIN).",
+            "By sending a challenge (RAND) to the Authentication Center, which generates a response (SRES) using the Ki key.",
+            "By sending a challenge (RAND) to the SIM card, which generates a response (SRES) using the TMSI key.",
+            "By sending a challenge (RAND) to the SIM card, which generates a response (SRES) using the IMSI key.",
+            "None of the other options."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "associate",
+        "question": "Associate the correct answer to each of the following terms:",
+        "options": {
+            "names": [
+                "UMTS Multiple Access",
+                "UMTS network supports",
+                "4G networks supports",
+                "Original GMS networks supports",
+                "GMS Multiple Access"
+            ],
+            "list": [
+                "Code Division Multiple Access",
+                "both circuit- and packet- switching technologies",
+                "only packet-switching technologies",
+                "only circuit-switching technologies",
+                "Time Division and Frequency division Multiple Access"
+            ]
+        },
+        "answer": {
+            "UMTS Multiple Access": "Code Division Multiple Access",
+            "UMTS network supports": "both circuit- and packet- switching technologies",
+            "4G networks supports": "only packet-switching technologies",
+            "Original GMS networks supports": "only circuit-switching technologies",
+            "GMS Multiple Access": "Time Division and Frequency division Multiple Access"
+        }
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the purpose of the Ki key stored on a SIM card?",
+        "options": [
+            "To identify the SIM card and its subscriber's information.",
+            "To store the subscriber's phonebook and SMS messages in encrypted format.",
+            "To encrypt voice and data transmissions over the mobile network.",
+            "To authenticate the SIM card to the mobile network.",
+            "None of the other options."
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "associate",
+        "question": "Associate the correct definition to the following UMTS security features:",
+        "options": {
+            "names": [
+                "Network domain security",
+                "Visibility and configurability of security",
+                "User domain security",
+                "Network access security",
+                "Application domain security"
+            ],
+            "list": [
+                "The set of security features that enable nodes in the provider domain to exchange signalling data securely.",
+                "The set of features to inform the user whether a security feature is in operation or not.",
+                "The set of security features that secure access to mobile stations.",
+                "The set of security features that provide users with secure access to 3G services.",
+                "The set of security features that enable applications in the user and the provider domain to exchange messages securely."
+            ]
+        },
+        "answer": {
+            "Network domain security": "The set of security features that enable nodes in the provider domain to exchange signalling data securely.",
+            "Visibility and configurability of security": "The set of features to inform the user whether a security feature is in operation or not.",
+            "User domain security": "The set of security features that secure access to mobile stations.",
+            "Network access security": "The set of security features that provide users with secure access to 3G services.",
+            "Application domain security": "The set of security features that enable applications in the user and the provider domain to exchange messages securely."
+        }
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Considering the GSM A5 algorithm used to provide confidentiality in GMS, which of the following claims are correct?",
+        "options": [
+            "It uses multiple Linear Feedback Shift Registers which are clocked to increase the entropy of the keystream.",
+            "It uses 54 bits long likely to allow national agencies to decrypt communications.",
+            "There were two versions of the A5 algorithm: one for usage in western countries, one for export outside western countries.",
+            "It uses the Cypher Key Kc and the Frame Number FN to compute the encryption key stream.",
+            "None of the other options."
+        ],
+        "answer": [0, 1, 2, 3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the difference between user signaling and network signaling in mobile networks?",
+        "options": [
+            "User signaling is responsible for establishing and maintaining connections, while network signaling manages the subscriber's phonebook and SMS messages.",
+            "User signaling includes all types of data transmission between users, while network signaling is used solely for billing and accounting purposes.",
+            "User signaling is used to manage handovers between cells, while network signaling is used to encrypt data transmissions.",
+            "User signaling allows the setup for the transmission of user data such as voice and text messages, while network signaling involves the exchange of control information to manage the network and ensure proper communication.",
+            "None of the other options."
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the concept of cellular coverage in mobile networks?",
+        "options": [
+            "The range within which a mobile device can connect to a single cell tower and receive a signal.",
+            "The maximum data transmission speed that can be achieved within a specific area of the network.",
+            "The area served by a cellular network where users can make and receive calls, use data services, and move without losing connection.",
+            "The method by which multiple cell towers coordinate to provide seamless connectivity to a mobile device.",
+            "None of the other options."
+        ],
+        "answer": [2]
+    }
+]

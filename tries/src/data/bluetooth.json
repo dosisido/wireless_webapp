@@ -1,0 +1,158 @@
+[
+    {
+        "type": "multiple-choice",
+        "question": "How does Bluetooth Classic handle privacy concerns compared to Bluetooth LE?",
+        "options": [
+            "Bluetooth Classic uses encryption keys for all data transmissions.",
+            "Bluetooth Classic limits the number of devices that can connect simultaneously.",
+            "Bluetooth Classic randomizes MAC addresses for improved privacy.",
+            "Bluetooth Classic does not have any privacy features.",
+            "None of the other options."
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the Bluesnarfing attack?",
+        "options": [
+            "A vulnerability that allows unauthorized access to Bluetooth devices via malicious code execution.",
+            "A method for securely pairing Bluetooth devices using encryption keys.",
+            "A feature that enhances Bluetooth data transmission speed.",
+            "A protocol used for secure pairing in Bluetooth devices.",
+            "None of the other options."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which security services does Bluetooth support?",
+        "options": [
+            "Authorization",
+            "Confidentiality",
+            "Authentication",
+            "Notarization",
+            "None of the other options."
+        ],
+        "answer": [0, 1, 2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which multiple access mechanism BT uses?",
+        "options": [],
+        "answer": []
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is Bluetooth LE Privacy Feature?",
+        "options": [
+            "A feature that encrypts all data transmitted over Bluetooth Low Energy (LE).",
+            "A feature that generates random MAC addresses for advertising packets.",
+            "A feature that hides the Bluetooth device from unauthorized scanning.",
+            "A feature that restricts the range of Bluetooth connections to improve privacy.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is pairing in Bluetooth technology? Select one:",
+        "options": [
+            "A method for managing power consumption in Bluetooth devices.",
+            "The process of establishing a Bluetooth connection between two devices.",
+            "A mechanism for securely storing Bluetooth device information for future connections.",
+            "None of the other options.",
+            "A protocol for encrypting Bluetooth data transmissions."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Consider the Bluetooth Authentication sketched in the figure below.",
+        "options": [],
+        "answer": []
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is bonding in Bluetooth technology?",
+        "options": [
+            "A mechanism for optimizing Bluetooth connection range.",
+            "A method for encrypting data packets during Bluetooth transmission.",
+            "A process of permanently storing Bluetooth device information after successful pairing.",
+            "A protocol for managing multiple simultaneous Bluetooth connections.",
+            "None of the other options."
+        ],
+        "answer": [2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "What is the Relay Attack in Bluetooth?",
+        "options": [
+            "It bridges communications between devices to fool them into thinking they are close to each other",
+            "It consists in brute forcing the PIN.",
+            "It sends a previously recorded frame to misuse the communication.",
+            "It leverages the signal to noise ratio to authenticate the device.",
+            "None of the other options"
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which are the characteristics the Bluetooth devices must have to support passkey entry?",
+        "options": [
+            "Both devices must have a keypad and a display.",
+            "Both devices must have a keypad, a display and a NFC reader.",
+            "It is sufficient that both devices have a display.",
+            "It is sufficient that one device has a keyboard.",
+            "None of the other options."
+        ],
+        "answer": [4]
+    },
+    {
+        "type": "associate",
+        "question": "Associate the correct definition to the correct Bluetooth Association Modes",
+        "options": {
+            "names": [
+                "Passkey Entry",
+                "Out-of-Band",
+                "Numeric Comparison",
+                "Just Works"
+            ],
+            "list": [
+                "The user enters the passkey into the device which must have a keyboard.",
+                "Use a mechanism that is not based on Bluetooth to associate.",
+                "A number is displayed on the two devices and the user confirms the number is identical.",
+                "Used for devices with no Display or Keyboard, with default passkey."
+            ]
+        },
+        "answer": {
+            "Passkey Entry": "The user enters the passkey into the device which must have a keyboard.",
+            "Out-of-Band": "Use a mechanism that is not based on Bluetooth to associate.",
+            "Numeric Comparison": "A number is displayed on the two devices and the user confirms the number is identical.",
+            "Just Works": "Used for devices with no Display or Keyboard, with default passkey."
+        }
+    },
+    {
+        "type": "multiple-choice",
+        "question": "How is a Man-in-the-Middle (MITM) attack prevented in Bluetooth simple security pairing?",
+        "options": [
+            "By rotating the Bluetooth MAC address during the pairing process.",
+            "By using public key cryptography for key exchange.",
+            "By encrypting the pairing process using a shared secret key.",
+            "By using a fixed PIN that is known only to the user and the device.",
+            "None of the other options."
+        ],
+        "answer": [2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "In Bluetooth, the Security Level 3 - Authenticated Pairing with Encryption - guarantees which of the following properties?",
+        "options": [
+            "Man in The Middle (MITM) protection",
+            "Device authenticate required",
+            "Minimal user interaction - the user is not involved during pairing.",
+            "No encryption keys are generated.",
+            "None of the other options."
+        ],
+        "answer": [0, 1]
+    }
+]

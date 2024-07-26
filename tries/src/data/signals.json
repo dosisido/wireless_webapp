@@ -1,0 +1,92 @@
+[
+    {
+        "type": "multiple-choice",
+        "question": "In a digital communication system, which type of waveforms are propagated over the wireless channel?",
+        "options": [
+            "Analog waveforms",
+            "A sequence of bits",
+            "Digital waveforms",
+            "Analog or digital waveforms, depending on the type of modulation adopted",
+            "None of the other options"
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Why do we need a practical definition of bandwidth like the '3dB bandwidth'?",
+        "options": [
+            "Because finite duration signals have finite support in the frequency domain.",
+            "Because finite duration signals have infinite support in the frequency domain.",
+            "It is just a common practice. Defining the bandwidth as the support of the signal in the frequency domain works as well for practical applications.",
+            "Because it is easier to measure a 3dB bandwidth rather than other definitions of bandwidth.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which of the following statements about PSK modulation is TRUE?",
+        "options": [
+            "Since each symbol has a different energy level, operating close to the saturation region of a power amplifier does not cause distortion, resulting in efficient use of the amplifier.",
+            "Since each symbol has a different energy level, operating close to the saturation region of a power amplifier causes distortion, resulting in a larger probability of error.",
+            "Since all the symbols have the same energy, operating close to the saturation region of a power amplifier causes distortion, resulting in a larger probability of error.",
+            "Since all the symbols have the same energy, operating close to the saturation region of a power amplifier does not cause distortion, resulting in efficient use of the amplifier.",
+            "None of the other options."
+        ],
+        "answer": [3]
+    },
+    {
+        "type": "fill-in-the-blank",
+        "question": "Put the building blocks of a digital communication system in the correct order:",
+        "options": [],
+        "answer": ["TX", "Encoder", "Modulator", "Channel", "Demodulator", "Decoder", "RX"]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "A digital communication system uses a 2-PAM modulation with rectangular pulses and a given average energy per symbol $E_s$. What happens if we adopt instead a 4-PAM modulation, using the same basic pulse and average energy per symbol $E_s$?",
+        "options": [
+            "The bitrate decreases, but the system becomes more robust to errors.",
+            "The bitrate increases, but the system becomes more error prone.",
+            "The bandwidth efficiency increases resulting in a generally larger bandwidth of the transmitted signals.",
+            "The bandwidth efficiency decreases resulting in a generally larger bandwidth of the transmitted signals.",
+            "None of the other options."
+        ],
+        "answer": [1]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "Which operation performed on a signal allows moving its frequency content around a desired frequency?",
+        "options": [
+            "Multiplication with a sinusoidal function",
+            "Convolution with a sinusoidal function",
+            "Amplitude modulation",
+            "Lowpass filtering",
+            "None of the other options."
+        ],
+        "answer": [0]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "In a digital modulation scheme transmitting $M$ different symbols, what could be a wise strategy to map each sequence of $\\log_2 M$ bits to each symbol?",
+        "options": [
+            "It does not matter. As long as each symbol carries the same number of bits, their mapping has no impact on the performance.",
+            "Maximizing the number of bits that differ between symbols that are more likely to be mistaken is a good strategy to minimize the bit error rate.",
+            "Minimizing the number of bits that differ between symbols that are more likely to be mistaken is a good strategy to minimize the bit error rate.",
+            "The bit sequence with the largest number of '1's should be assigned to the symbol with the highest energy, and so on, until the sequence with all zeros is assigned to the symbol with the lowest energy.",
+            "None of the other options."
+        ],
+        "answer": [2]
+    },
+    {
+        "type": "multiple-choice",
+        "question": "If an analog signal is characterized by a one-sided bandwidth, which is the minimum sampling frequency that allows to perfectly reconstruct the analog signal from its samples?",
+        "options": [
+            "$B$",
+            "$B/2$",
+            "$2B$",
+            "Any sampling frequency would guarantee a perfect reconstruction as long as quantization is not performed over the signal.",
+            "None of the other options."
+        ],
+        "answer": [2]
+    }
+]
